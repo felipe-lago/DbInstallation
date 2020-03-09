@@ -19,6 +19,10 @@ jobs:
         dotnet-version: 3.1.101
     - name: Build with dotnet
       run: dotnet build --configuration Release
+      
+    - name: Create Zip File
+      uses: montudor/action-zip@v0.1.0
+      
     - name: Download artifact
       uses: actions/download-artifact@v1.0.0
       with:
