@@ -23,4 +23,5 @@ jobs:
       uses: actions/download-artifact@v1.0.0
       with:
         # Artifact name
-        name: DbInstallation
+        name: /home/runner/work/DbInstallation/DbInstallation/DbInstallation/*
+
